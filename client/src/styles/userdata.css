@@ -1,0 +1,46 @@
+.table-container {
+    overflow-x: auto;
+    font-family: "Syne", sans-serif; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color:#2f597c;
+    padding: 20px;
+}
+
+.table th:first-child,
+.table td:first-child {
+    text-indent: 0;
+}
+
+.table td button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #2f597c;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+    
+}
+
+.table td button:hover {
+    background-color: #214166;
+}
+
+thead tr th{
+    color: white;
+}
